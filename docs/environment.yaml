@@ -1,0 +1,5 @@
+name: 
+channels:
+  - defaults
+dependencies:
+  - pip:
