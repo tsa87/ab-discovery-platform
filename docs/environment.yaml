@@ -1,5 +1,10 @@
-name: 
+name: ab-discovery
 channels:
   - defaults
+  - conda-forge
 dependencies:
+  - pytorch
+  - pip>=21.0
   - pip:
+      - pytorch-lightning
+      - pandas
